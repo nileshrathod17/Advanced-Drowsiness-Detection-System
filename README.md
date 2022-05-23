@@ -44,6 +44,4 @@ no noticeable difference in terms of accuracy for the test data. It still fluctu
 A further refinement of the network was to perform a kind of majority voted based classification. Here, the recognition system always collects an average of **20** images and notes the decisions of the classifications.
 If the majority of these images indicate fatigue, the person is classified as drowsy, otherwise as vigilant. This minimizes any single misclassification and gives a more stable prediction model.
 
-# Outlook
-Use more unique tired persons and awake people and include more variance (e.g. different angles, ages, skins etc.). After all, a GUI for live detection is mandatory. Feel free to make further suggestions or updates ;)
 
